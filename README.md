@@ -75,11 +75,9 @@ By the end of this activity, students will be able to:
 
 ---
 
-# 📊 Enhancing Model Performance: Visualization, Overfitting Control, Data Augmentation, and Model Deployment
+## 📊 Enhancing Model Performance: Visualization, Overfitting Control, Data Augmentation, and Model Deployment
 
-## 🎯 Learning Outcomes
-
-By the end of this activity, students will be able to:
+### 🎯 Learning Outcomes
 
 1. **Visualize training and validation performance using graphs.**  
 *I learned how to plot training and validation accuracy and loss graphs, which help me understand how the model is learning over time.*
