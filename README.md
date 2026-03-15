@@ -1,6 +1,28 @@
 # Building-a-Custom-Image-Classifier-with-TensorFlow-Using-Personal-Image-Datasets-from-Google-Drive
 ### (https://colab.research.google.com/drive/1G0LpoO__nGYHabiOI3fScNY9nkd3ZKE5?usp=sharing)
 ---
+## 🎯 Learning Outcomes / Objectives
+
+By the end of this activity, students will be able to:
+
+1. **Explain the fundamentals of image classification using deep learning.**  
+*I learned that deep learning models, especially Convolutional Neural Networks (CNNs), can automatically detect patterns and features in images to classify them accurately without manually defining features.*
+
+2. **Prepare and organize a custom image dataset stored in Google Drive.**  
+*I organized my tropical fruit images into labeled folders, making it easy for TensorFlow to load and correctly identify each fruit class.*
+
+3. **Load and preprocess images for model training in TensorFlow/Keras.**  
+*I learned how to resize, normalize, and batch images so that they are ready for training a neural network efficiently.*
+
+4. **Train and evaluate a convolutional neural network (CNN) using personal images.**  
+*I built a CNN, trained it using my dataset of tropical fruit images, and evaluated the model’s performance on unseen validation images.*
+
+5. **Interpret model accuracy and loss metrics.**  
+*I analyzed the training and validation accuracy and loss to understand how well the model learned patterns and to check for overfitting.*
+
+6. **Reflect on dataset quality and its impact on model performance.**  
+*I realized that the size, balance, and quality of the images directly affect the model’s accuracy and ability to generalize to new images.*
+---
 ## 🍍 Guide Questions (Student Reflection & Explanation)
 
 ## 📝 Dataset Preparation
