@@ -75,28 +75,29 @@ By the end of this activity, students will be able to:
 
 ---
 
-## 🎯 Learning Objectives (Reflected in Practice)
+# 📊 Enhancing Model Performance: Visualization, Overfitting Control, Data Augmentation, and Model Deployment
 
-1. **Explain the basics of image classification using deep learning.**  
-   *I learned that CNNs can automatically detect patterns in fruit images and classify them without manually defining features.*
+## 🎯 Learning Outcomes
 
-2. **Prepare and organize a custom image dataset stored in Google Drive.**  
-   *I arranged my fruit images into labeled folders so TensorFlow could easily read and categorize them.*
+By the end of this activity, students will be able to:
 
-3. **Load and preprocess images for model training in TensorFlow/Keras.**  
-   *I resized, normalized, and batched the images so the model could efficiently process them.*
+1. **Visualize training and validation performance using graphs.**  
+*I learned how to plot training and validation accuracy and loss graphs, which help me understand how the model is learning over time.*
 
-4. **Train and evaluate a CNN using personal images.**  
-   *I built a CNN, trained it with my fruit images, and evaluated it using validation data to see how well it could classify unseen images.*
+2. **Explain overfitting and identify its signs in training results.**  
+*I can recognize overfitting when training accuracy is high but validation accuracy is lower or fluctuating, indicating the model memorizes training images rather than generalizing.*
 
-5. **Interpret model accuracy and loss metrics.**  
-   *I analyzed training and validation accuracy and loss to understand how well the model learned and to detect overfitting.*
+3. **Apply data augmentation to improve model generalization.**  
+*I learned to apply techniques like rotations, flips, and zooming to increase image variety, which helps the model perform better on unseen images.*
 
-6. **Reflect on dataset quality and its impact on model performance.**  
-   *I realized that image quality, class balance, and dataset size directly affect the model’s accuracy and generalization.*
+4. **Implement dropout to reduce overfitting.**  
+*I used dropout layers to randomly deactivate neurons during training, forcing the model to learn more robust and generalized features.*
 
----
+5. **Retrain and evaluate an improved CNN model.**  
+*I retrained the CNN using augmented data and dropout layers, then evaluated its performance to see improvements in validation accuracy and generalization.*
 
+6. **Predict classes on new images using the trained model.**  
+*I can now use the trained model to classify new tropical fruit images accurately, applying it in practical scenarios or real-world applications.*
 ## 🔍 Reflection on Overfitting and Improvements
 
 **1. What signs indicated overfitting in your first model?**  
