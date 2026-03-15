@@ -94,3 +94,42 @@
 
 **6. Which technique contributed most to improvement?**  
 *Data augmentation contributed the most because it increased the variety of training images, making the model more flexible and accurate with new data.*
+## 📝 Guide Questions (Student Explanation & Reflection)
+
+### Visualization & Overfitting
+
+**1. What signs indicated overfitting in your first model?**  
+*Overfitting was obvious when training accuracy was extremely high while validation accuracy was lower or unstable. This showed that the model was memorizing the training images rather than learning patterns that could generalize.*
+
+**2. How did data augmentation affect validation accuracy?**  
+*Data augmentation improved validation accuracy by exposing the model to variations of the images, such as rotations, flips, and zooms. This helped the model recognize fruits under different conditions instead of just memorizing the training images.*
+
+---
+
+### Model Improvement
+
+**3. What is the purpose of dropout layers?**  
+*Dropout layers help reduce overfitting by randomly turning off a percentage of neurons during training. This forces the model to learn more robust and generalized features instead of relying too heavily on specific neurons.*
+
+**4. Why does data augmentation improve generalization?**  
+*Data augmentation improves generalization by simulating real-world variations in the images, such as changes in angle, size, lighting, and orientation. This allows the model to perform better on unseen images.*
+
+---
+
+### Performance Comparison
+
+**5. Compare accuracy before and after improvements.**  
+*Before applying dropout and data augmentation, validation accuracy was lower and overfitting was visible. After these improvements, training accuracy reached 100% and validation accuracy improved to around 99%, showing that the model learned patterns that generalized well.*
+
+**6. Which technique contributed most to improvement?**  
+*Data augmentation contributed the most because it increased the variety of images the model saw during training, making it more flexible and accurate when classifying new fruit images.*
+
+---
+
+### Deployment & Application
+
+**7. Why is saving the model important?**  
+*Saving the model is important so that the trained network can be reused later without retraining. This allows for deployment in real-world applications and saves time and computational resources.*
+
+**8. How can this model be deployed in a real-world system?**  
+*The model can be deployed in a mobile or web application where users upload fruit images. The system can predict the fruit type in real-time. For mobile apps, TensorFlow Lite can be used, while web apps can use frameworks like Flask or Django.*
